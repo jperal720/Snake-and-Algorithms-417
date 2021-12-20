@@ -1,7 +1,6 @@
-import node
+from Board import Board
 
-def main():
-    return
 
-if __name__ == '__main__':
-    main()
+board = Board(3,3)
+print(board.board)
+
